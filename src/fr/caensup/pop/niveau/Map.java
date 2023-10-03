@@ -15,5 +15,9 @@ public class Map extends Niveau {
             }
         }
     }
+    
+    public Emplacement[][] getGrille() {
+		return grille;
+	}
 
 }
